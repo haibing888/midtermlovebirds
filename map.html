@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+  <title>Language map</title>
+<body>
+
+
+  <div class="container1">
+    <div class="col-md-3">
+       <div class="container">
+         <img src="images/subject.png" alt="" />
+         <p class="title">subject</p>
+         <div class="overlay"></div>
+         <div class="button">choose subject</button>
+            <form>
+              <div id="myDropdownSubj" class="dropdown-content">
+                <input type="text" placeholder="Search.." id="subjInput" onkeyup="filterFunction(this.id)" >
+                <div id="subjOptions">
+                  <a id="I 我 [wo]">I 我 [wo]</a>
+                  <a id="you 你 [ni]">you 你 [ni]</a>
+                  <a id="he 他 [ta]">he 他 [ta]</a>
+                  <a id="she 她 [ta]">she 她 [ta]</a>
+                  <a id="it 它 [ta]">it 它 [ta]</a>
+                  <a id="we 我们 [women]">we 我们 [women]</a>
+                  <a id="You (plur) 你们 [nimen]">You (plur) 你们 [nimen]</a>
+                  <a id="this 这个 [zhège]">this 这个 [zhège]</a>
+                  <a id="that 那个 [nàge]">that 那个 [nàge]</a>
+                  <a id="this thing 这个东西 [zhège dongxi]">this thing 这个东西 [zhège dongxi]</a>
+                  <a id="man 男的 [nánde]">man 男的 [nánde]</a>
+                  <a id="woman 女的 [nude]">woman 女的 [nude]</a>
+                  <a id="boy 男孩子 [nánháizi]">boy 男孩子 [nánháizi]</a>
+                  <a id="girl 女孩子 [nuháizi]">girl 女孩子 [nuháizi]</a>
+                  <a id="guy 小伙子 [xaio huzi]">guy 小伙子 [xaio huzi]</a>
+                  <a id="young girl 小姑娘 [xiao guniáng]">young girl 小姑娘 [xiao guniáng]</a>
+                  <a id="old man 老人 [laorén]">old man 老人 [laorén]</a>
+                  <a id="old lady 老太太[laotàitài]">old lady 老太太[laotàitài]</a>
+                  <a id="foreigner 老外 [laowài]">foreigner 老外 [laowài]</a>
+                  <a id="chinese person 中国人 [zhongguó rén]">chinese person 中国人 [zhongguó rén]</a>
+                </div>
+              </div>
+            </form>
+             <!-- <input type = "button" onclick = "myfunc()" value = "Submit"> -->
+         <!-- </form> -->
+       </div>
+      </div>
+    </div>
+
+<div class="container1">
+ <div class="col-md-3">
+   <div class="container">
+     <img src="images/do what.jpg" alt="" />
+     <p class="title">predicate</p>
+     <div class="overlay"></div>
+      <div class="button">choose predicate</button>
+            <form>
+              <div id="myDropdownPred" class="dropdown-content">
+                <input type="text" placeholder="Search.." id="predInput" onkeyup="filterFunction(this.id)" >
+                <div id="predOptions">
+                  <a id="go 去 [qù]">go 去 [qù]</a>
+                  <a id="come 来 [lái]">come 来 [lái]</a>
+                  <a id="sit 坐 [zuò]">sit 坐 [zuò]</a>
+                  <a id="stand 站 [zhàn]">stand 站 [zhàn]</a>
+                  <a id="stop 停 [tíng]">stop 停 [tíng]</a>
+                  <a id="arrive 到 [dào]">arrive 到 [dào]</a>
+                  <a id="leave 离开 [líkai]">leave 离开 [líkai]</a>
+                  <a id="answer 回答 [huída]">answer 回答 [huída]</a>
+                  <a id="ask 问 [wèn]">ask 问 [wèn]</a>
+                  <a id="ask for smth 请 [qing]">ask for smth 请 [qing]</a>
+                  <a id="bother 麻烦 [máfán]">bother 麻烦 [máfán]</a>
+                  <a id="give 给 [gei]">give 给 [gei]</a>
+                  <a id="know(smth) 知道[zhidào]">know(smth) 知道[zhidào]</a>
+                  <a id="speak 说 [shuo]">speak 说 [shuo]</a>
+                  <a id="wait 等 [deng]">wait 等 [deng]</a>
+                  <a id="love 爱 [ài]">love 爱 [ài]</a>
+                  <a id="like 喜欢 [xhuan]">like 喜欢 [xhuan]</a>
+                  <a id="hate 讨厌 [taoyàn]">hate 讨厌 [taoyàn]</a>
+                  <a id="live 住 [zhù]">live 住 [zhù]</a>
+                  <a id="eat 吃 [chi]">eat 吃 [chi]</a>
+                  <a id="drink 喝 [he]">drink 喝 [he]</a>
+                  <a id="buy 买 [mi]">buy 买 [mi]</a>
+                  <a id="look for 找 [zhao]">look for 找 [zhao]</a>
+                  <a id="order 点 [dian]">order 点 [dian]</a>
+                  <a id="sell 卖 [mài]">sell 卖 [mài]</a>
+                  <a id="work 工作 [gongzuò]">work 工作 [gongzuò]</a>
+                </div>
+              </div>
+            </form>
+       </div>
+      </div>
+    </div>
+
+
+
+<div class="container1">
+  <div class="col-md-3">
+     <div class="container">
+       <img src="images/adjective.jpg" alt="" />
+       <p class="title">adjective</p>
+       <div class="overlay"></div>
+       <div class="button">CHOOSE ADJECTIVE</button>
+          <form>
+            <div id="myDropdownAdj" class="dropdown-content">
+              <input type="text" placeholder="Search.." id="adjInput" onkeyup="filterFunction(this.id)" >
+              <div id="adjOptions">
+                <a id="good 好的 [haode]">good 好的 [haode]</a>
+                <a id="bad 差的 [chàde]">bad 差的 [chàde]</a>
+                <a id="better 更好的[gèng ho de]">better 更好的[gèng ho de]</a>
+                <a id="the best 最好的 [zuì hao de]">the best 最好的 [zuì hao de]</a>
+                <a id="bad 差的 [chà de]">bad 差的 [chà de]</a>
+                <a id="worse 更差的[gèng chà de]">worse 更差的[gèng chà de]</a>
+                <a id="the worst 最差的 [zuì chà de]">the worst 最差的 [zuì chà de]</a>
+              </div>
+            </div>
+          </form>
+     </div>
+    </div>
+  </div>
+
+
+  <div class="container1">
+    <div class="col-md-3">
+       <div class="container">
+         <img src="images/object.jpg" alt="" />
+         <p class="title">Object</p>
+         <div class="overlay"></div>
+         <div class="button">CHOOSE object</button>
+            <form>
+              <div id="myDropdownObj" class="dropdown-content">
+                <input type="text" placeholder="Search.." id="objInput" onkeyup="filterFunction(this.id)" >
+                <div id="objOptions">
+                  <a id="phone 手机 [shouji]">phone 手机 [shouji]</a>
+                  <a id="purse 钱包 [qiánbao]">purse 钱包 [qiánbao]</a>
+                  <a id="passport 护照 [hùzhào]">passport 护照 [hùzhào]</a>
+                  <a id="lighter 打火机 [dahuji]">lighter 打火机 [dahuji]</a>
+                  <a id="cigaretts 香烟 [xiangyan]">cigaretts 香烟 [xiangyan]</a>
+                  <a id="tissue 餐巾纸[canjinzhi]">tissue 餐巾纸[canjinzhi]</a>
+                  <a id="sunglasses 墨镜 [mòjìng]">sunglasses 墨镜 [mòjìng]</a>
+                  <a id="credit card 信用卡 [xìnyòngka]">credit card 信用卡 [xìnyòngka]</a>
+                  <a id="ATM 取款机[qukuanji]">ATM 取款机[qukuanji]</a>
+                  <a id="cash 现金 [xiànjin]">cash 现金 [xiànjin]</a>
+                  <a id="money 钱 [qián]">money 钱 [qián]</a>
+                  <a id="camera 照相机 [zhàoxiàngji]">camera 照相机 [zhàoxiàngji]</a>
+                  <a id="laptop 电脑 [diànnao]">laptop 电脑 [diànnao]</a>
+                  <a id="water 水 [shu]">water 水 [shu]</a>
+                  <a id="house 房子 [fángzi]">house 房子 [fángzi]</a>
+                  <a id="room 房间 [fángjian]">room 房间 [fángjian]</a>
+                </div>
+              </div>
+            </form>
+       </div>
+      </div>
+    </div>
+
+
+</div>
+
+<input type = "button" onclick = "submit()" value = "Submit">
+
+<pre id="prePartOne">History:<br><br></pre>
+
+
+
+<script src="script.js"></script>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+  </html>
