@@ -35,10 +35,9 @@ Conversion Rate</p>
 The functionality of the website will be located in language map plugin - the user would be able to use language map as a keyboard for typing in a message.   
 <h3>Structure</h3>
 <p>Text window→ Keyboard→ Language map plugin
-
-Text window→ Games→ Language learning game(Kahoot, Duolinguo, )
-
-Text window---> Facetiming → ????WHAT MECAHNICS
+In future:
+Text window→ Games→ Language learning game(Kahoot, Duolinguo type)
+Text window---> Facetiming
 Text window --> Save to dictionary option</p>
 <h3>Prototype and User Tests</h3>
 ![lovebirds research 1](https://pp.userapi.com/c840427/v840427542/1d98b/u1IvpsPst_k.jpg)
@@ -48,3 +47,4 @@ Text window --> Save to dictionary option</p>
 ![lovebirds wireframes](https://user-images.githubusercontent.com/25942653/31867239-b973cd24-b759-11e7-87de-0b65eebf1bdc.jpg)
 
 <h3>Reflection</h3>
+Surprisingly, the easiest things were the most challenging in creation of the website, aka choosing the name. Lovebirds was a working title, but we seriously didn't come up with anything better and we kept it that way. Javascript part of the website required some heavy lifting, especially the search function. We kept trying to make it work by making word options values, but couldn't until we figured that those can be links instead and then everything worked. We originally hoped that we could have additional mechanics like saving a word to the dictionary in the final version, but with our limited proficiency with JS everything involving it takes a lot of time, so this feature would be coming in the final iteration. 
