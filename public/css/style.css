@@ -2,8 +2,8 @@
 .container {
   position: relative;
   margin-top: 50px;
-  width: 410px;
-  height: 970px;
+  width: 220px;
+  height: 670px;
 }
 
 .overlay {
@@ -23,8 +23,8 @@
 
 img {
   position: absolute;
-  width: 350px;
-  height: 970px;
+  width: 220px;
+  height: 670px;
   left: 0;
 }
 
@@ -32,8 +32,8 @@ img {
   position: absolute;
   float:center;
   width: 50px;
-  left: 120px;
-  top: 120px;
+  left: 50px;
+  top: 70px;
   font-weight: 700;
   font-size: 20px;
   text-align: center;
@@ -44,14 +44,14 @@ img {
 }
 
 .container:hover .title {
-  top: 90px;
+  top: 0px;
 }
 
 .button {
   position: absolute;
   width: 200px;
-  left: 80px;
-  top: 180px;
+  left: 10px;
+  top: 80px;
   text-align: center;
   opacity: 0;
   transition: opacity .35s ease;
@@ -129,14 +129,14 @@ img {
     width: 0;
     height: 0;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.35);
+    background: rgba(55, 55, 55, 0.35);
     transition: all 0.35s ease;
   }
 
   .btn:active:after,
   .btn.dropdown-open:after {
-    width: 200%;
-    height: 200%;
+    width: 100%;
+    height: 100%;
   }
 
   .btn:hover {
@@ -197,7 +197,7 @@ img {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(25, 25, 25, 0.95);
     box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1);
     border-radius: .2em;
   }

@@ -14,6 +14,8 @@ function filterFunction(inputID) {
 }
 
 var subject = "(nullString)";
+var time = "(nullString)";
+var place = "(nullString)";
 var predicate = "(nullString)";
 var adjective = "(nullString)";
 var object = "(nullString)";
@@ -21,6 +23,17 @@ var object = "(nullString)";
 function setSubj (subj_val) {
 	subject = subj_val;
 	console.log(subject);
+}
+
+function setTim (tim_val) {
+	time = tim_val;
+	console.log(time);
+}
+
+
+function setPla (pla_val) {
+	place = pla_val;
+	console.log(place);
 }
 
 function setPred (pred_val) {
@@ -41,12 +54,24 @@ function setObj (obj_val) {
 function submit () {
 	// prefix = "History:\n";
 	preObject = document.getElementById('prePartOne');
-	preObject.textContent += "\n" + subject + " " + predicate+ " " + adjective + " " + object;
+	preObject.textContent += "\n" + subject + " " + time + " " + place + " " + predicate + " " + adjective + " " + object;
 	// preObject.textContent = preObject.textContent +"\n" + subject + " " + predicate;
 }
 
 document.getElementById('subjOptions').addEventListener('click', function(event) {
   setSubj(event.target.id);
+});
+
+document.getElementById('timOptions').addEventListener('click', function(event) {
+	console.log("event: ", event);
+	console.log("typeof event", typeof event);
+  setTim(event.target.id);
+});
+
+document.getElementById('plaOptions').addEventListener('click', function(event) {
+	console.log("event: ", event);
+	console.log("typeof event", typeof event);
+  setPla(event.target.id);
 });
 
 document.getElementById('predOptions').addEventListener('click', function(event) {
